@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" href="css/iphone.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="imagens/logo.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Iphone 14 Pro Apple (128gb), 5g</title>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="imagens/logo_doy2.svg" height="250px" class="logo"></a>
+                </div>
+                  
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="conta.html">Conta</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="imagens/carrinho.png" height="30px" class="logo"></a>
+                <img src="imagens/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+    
+        </div>
+    </div>
+
+    <main>
+        <section>
+            <div class="will-smith">
+                <div class="left-side">
+                    <div class="items">
+                        <div class="imagem">
+                            <img src="imagens/iphone14.jpeg">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="right-side">
+                    <div class="content">
+                        <h1>Apple iPhone 14 Pro (128 GB) – Roxo-profundo</h1>
+                    <p>
+                        <li>Tela Super Retina XDR de 6,1 polegadas com tela Sempre Ativa e ProMotion</li>
+                        <li>Dynamic Island, uma nova forma de interação no iPhone</li>
+                        <li>Câmera grande-angular de 48 MP para resolução até 4x maior</li>
+                        <li>Modo Cinema, agora em 4K Dolby Vision até 30 qps</li>
+                        <li>Tecnologia de segurança — Detecção de Acidente, que liga para a emergência</li>
+                        <li>Bateria para o dia todo e até 23 horas de reprodução de vídeo</li>
+                    </p>
+                    <div class="precos">
+                        <span class="price">R$8.359,99</span>
+                        <span class="off">R$8.099,99</span>
+                    </div>
+                    <div class="options">
+                        <div class="quantidade">
+                            <div class="menos">
+                                <img src="imagens/icon-minus.svg">
+                            </div>
+                            <span>0</span>
+                            <div class="mais">
+                                <img src="imagens/icon-plus.svg">
+                            </div>
+                        </div>
+
+                        <a href="" class="button"><img src="imagens/icon-cart.svg">Adicionar ao carrinho</a>
+                    </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- footer -->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <img src="imagens/logo.png">
+                </div>
+                <div class="footer-col-2">
+                    <h3>Links Úteis</h3>
+                    <ul>
+                        <li>Promoções</li>
+                        <li>Política de troca</li>
+                    </ul>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Redes Sociais</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2022 - Doy Store</p>
+            <p class="termos">Politica de devolução | Política de Segurança e Privacidade | Termos Legais | Reembolsos</p>
+        </div>
+    </div>
+
+     <!-- --------------javascript---------- -->
+     <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+    
+</body>
+</html>

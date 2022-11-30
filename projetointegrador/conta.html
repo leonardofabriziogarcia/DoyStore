@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Doy Store</title>
+    <link rel="stylesheet" href="css/conta.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" 
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="imagens/logo.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/5357283f89.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/1ab94d0eba.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+        <div class="header">
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+                        <a href="index.html"><img src="imagens/logo_doy2.svg" height="250px" class="logo"></a>
+                    </div>
+                    <nav>
+                        <ul id="MenuItems">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="produtos.html">Produtos</a></li>
+                            <li><a href="sobre.html">Sobre</a></li>
+                            <li><a href="conta.html">Conta</a></li>
+                        </ul>
+                    </nav>
+                    <a href="cart.html"><img src="imagens/carrinho.png" height="30px" class="logo"></a>
+                    <img src="imagens/menu.png" class="menu-icon" onclick="menutoggle()">
+                </div>
+                
+            </div>
+        </div>
+    </div>
+<!---------- Conta --------- -->
+
+
+<main class="container">
+    <h2>Login</h2>
+    <form action="">
+        <div class="input-field">
+            <input type="text" name="username" id="username"
+                placeholder="E-mail">
+            <div class="underline"></div>
+        </div>
+        <div class="input-field">
+            <input type="password" name="password" id="password"
+                placeholder="Senha">
+            <div class="underline"></div>
+        </div>
+        <div class="lukinhas">
+            <a href="#">Esqueci minha senha!</a>
+        </div>
+
+        <input type="submit" value="Continue">
+    </form>
+
+    <div class="box">
+        <span>Ou conecte-se com as redes sociais</span>
+        <div class="social-fields">
+            <div class="social-field google">
+                <a href="#">
+                    <i class="fa-brands fa-google"></i>
+                    Entrar com Google
+                </a>
+            </div>
+            <div class="social-field facebook">
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                    Entrar com Facebook
+            </div>
+            <div class="underline-conta"></div>
+            <div class="criar-conta">
+                <a href="criar_conta.html">Crie sua conta</a>
+            </div>
+        </div>
+    </div>
+    <div class="leg">
+        <span>Politica de devolução | Política de Segurança e Privacidade | Termos Legais | Reembolsos</span>
+    </div>
+</main>
+
+<!-----------------footer------------------>
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <img src="imagens/logo.png">
+            </div>
+            <div class="footer-col-2">
+                <h3>Links Úteis</h3>
+                <ul>
+                    <li>Promoções</li>
+                    <li>Política de troca</li>
+                </ul>
+            </div>
+            <div class="footer-col-3">
+                <h3>Redes Sociais</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2022 - Doy Store</p>
+        <p class="termos">Politica de devolução | Política de Segurança e Privacidade | Termos Legais | Reembolsos</p>
+    </div>
+</div>
+
+<!-- --------------javascript---------- -->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+            MenuItems.style.maxHeight = "200px";
+        }
+        else {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+
+
+
+</body>
+
+</html>

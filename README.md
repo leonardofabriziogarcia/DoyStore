@@ -1,6 +1,6 @@
 # Projeto-Integrador---Front-End
 
-Em nosso projeto após muita discussão e brainstorming entre o grupo, chegamos à ideia final de reproduzir um site de vendas, ultilizamos HTMl, CSS e JavaScript
+Em nosso projeto após muita discussão e brainstorming entre o grupo, chegamos à ideia final de reproduzir um site de vendas, ultilizamos HTML, CSS e JavaScript
 
 Feito por:
 

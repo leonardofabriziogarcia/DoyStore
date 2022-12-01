@@ -1,6 +1,6 @@
 # Projeto-Integrador---Front-End
 
-Projeto da faculdade de Front End, em nosso projeto após muita discussão e brainstorming entre o grupo, chegamos à ideia final de reproduzir um site de vendas, fizemos um site de vendas ultilizamos HTMl, CSS e JavaScript
+Em nosso projeto após muita discussão e brainstorming entre o grupo, chegamos à ideia final de reproduzir um site de vendas, ultilizamos HTMl, CSS e JavaScript
 
 Feito por:
 

@@ -12,6 +12,6 @@ Feito por:
 
 -Murilo Teixeira Wiermann;
 
--Leonardo Garcia Fabrizio;
+-Leonardo Fabrizio Garcia;
 
 -André Novembrino de Oliveira Pinto;

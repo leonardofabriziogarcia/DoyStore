@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Doy Store</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="imagens/logo.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/5357283f89.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="imagens/logo_doy2.svg" height="250px" class="logo"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="conta.html">Conta</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="imagens/carrinho.png" height="30px" class="logo"></a>
+                <img src="imagens/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Bem vindos a Doy Store</h1>
+                    <p>Fique um passo a frente da tecnologia.</p>
+                    <p>Qualidade e excelência em tudo que fazemos.</p>
+                    <a href="produtos.html" class="btn">Explore agora &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="imagens/pcgamer.png">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="small-container">
+        <h2 class="title">Produtos em Destaque</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="imagens/img1.jpg" alt="">
+                <h4>Headset Gamer Redragon Zeus X</h4>
+                <h1>R$309,99</h1>     
+            </div>
+            <div class="col-4">
+                <img src="imagens/img2.jpg" alt="">
+                <h4>Cadeira Gamer ThunderX3 TGC12, Black</h4>
+                <h1>R$1.299,99</h1>
+            </div>
+            <div class="col-4">
+                <img src="imagens/img3.jpg" alt="">
+                <h4>Placa de Vídeo Gaming GeForce RTX 3060</h4>
+                <h1>R$2.499,99</h1>
+            </div>
+            <div class="col-4">
+                <img src="imagens/img4.jpg" alt="">
+                <h4>Console Microsoft Xbox Series X, 1TB, Preto</h4>
+                <h1>R$3.994,99</h1>
+            </div>
+        </div>
+        <h2 class="title">Produtos em promoção</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="imagens/monitor.jpg" alt="">
+                <h4>Monitor Gamer LG 26 IPS</h4>
+                <div class="precinho">R$959,59</div>
+                <h1>R$899,99</h1>
+            </div>
+            <div class="col-4">
+                <img src="imagens/microfone.jpg" alt="">
+                <h4>Microfone Gamer HyperX QuadCast S</h4>
+                <div class="precinho">R$939,39</div>
+                <h1>R$899,99</h1>
+                
+            </div>
+            <div class="col-4">
+                <img src="imagens/fifa23.jpg" alt="">
+                <h4>Jogo Fifa 23 BR, Play Station 4</h4>
+                <div class="precinho">R$299,99</div>
+                <h1>R$269,99</h1>
+            </div>
+            <div class="col-4">
+                <img src="imagens/mouse.jpg" alt="">
+                <h4>Mouse Gamer Redragon Cobra</h4>
+                <div class="precinho">R$136,99</div>
+                <h1>R$119,99</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="imagens/play5.jpg" alt="">
+                <h4>Console Sony Playstation 5</h4>
+                <div class="precinho">R$4399,90</div>
+                <h1>R$3999,99</h1>
+            </div>
+            <div class="col-4">
+                <img src="imagens/computador_gamer.jpg" alt="">
+                <h4>Computador Gamer, i5-7500</h4>
+                <div class="precinho">R$7499,98</div>
+                <h1>R$6899,99</h1>
+            </div>
+            <div class="col-4">
+                <img src="imagens/mousepad.jpg" alt="">
+                <h4>Mousepad Gamer Redragon Crater Qi </h4>
+                <div class="precinho">R$199,90</div>
+                <h1>R$159,99</h1>
+            </div>
+            <div class="col-4">
+                <img src="imagens/teclado.jpg" alt="">
+                <h4>Teclado Mecânico Gamer HyperX Mars</h4>
+                <div class="precinho">R$279,99</div>
+                <h1>R$229,99</h1>
+            </div>
+        </div>
+    </div>
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="imagens/exclusive.png" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Exclusivo na DOY STORE</p>
+                    <h1>Smart Band 4</h1>
+                    <small>Em sua nova versão, a Mi Band 4 traz novas funções, além das funções já conhecidas,
+                        porém ainda mais aprimoradas para melhorar a sua qualidade de vida. O display é 39.9% maior que
+                        o display da Mi Band anterior,
+                        oferecendo 0.95", brilho de até 450 its, além de ser amoloed e colorido.
+                    </small>
+                    <a href="miband.html" class="btn">Compre agora &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------Avaliações----------- -->
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Loja de alta qualidade no quesito de eficiência e rapzidez ao enviar os produtos, chegou em 2 dias!!!</p>
+                    <div class="rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <img src="imagens/user-1.png">
+                    <h3>Pedro Doy</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Super atenciosos! Comprei um produto semana passada e precisei trocar, responderam rápido e enviaram em 3 dias!</p>
+                    <div class="rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <img src="imagens/user-1.png">
+                    <h3>Bruno Dantas</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Recomendo para todos os gamers, loja de qualidade, headset com acustica impecavel, melhor que ja tive!</p>
+                    <div class="rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <img src="imagens/user-1.png">
+                    <h3>Murilo Wiermann</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- --------------footer---------------- -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <img src="imagens/logo.png">
+                </div>
+                <div class="footer-col-2">
+                    <h3>Links Úteis</h3>
+                    <ul>
+                        <li>Promoções</li>
+                        <li>Política de troca</li>
+                    </ul>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Redes Sociais</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2022 - Doy Store</p>
+            <p class="termos">Politica de devolução | Política de Segurança e Privacidade | Termos Legais | Reembolsos</p>
+            <div class="pessoas-online">
+                <li>286 pessoas estão online nesse momento</li>
+            </div>
+
+        </div>
+    </div>
+
+    
+    <!-- --------------javascript---------- -->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+</body>
+
+</html>

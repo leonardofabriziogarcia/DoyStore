@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/criar_conta.css">
+    <title>Criar Conta</title>
+</head>
+<body>
+    <main class="container">
+        <div class="qualquer">
+            <div class="botao">
+                <a href="conta.html"><img src="imagens/voltar.png"></a>
+            </div>
+        </div>
+        <h2>Cadastro</h2>
+        <form action="">
+            <div class="input-field">
+                <input type="text" name="username" id="username"
+                    placeholder="E-mail">
+                <div class="underline"></div>
+            </div>
+            <div class="input-field">
+                <input type="password" name="password" id="password"
+                    placeholder="Senha">
+                <div class="underline"></div>
+            </div>
+        </form>
+    
+        <div class="box">
+            <div class="criar-conta">
+                <a href="conta.html">Criar Conta</a>
+            </div>
+        </div>
+        <div class="termos">
+            <p>Li e aceito os </p>
+                <a href="#">Termos Legais e Política de Segurança e Privacidade.</a>
+        </div>
+
+    </main>
+    
+    <!-----------------footer------------------>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <img src="imagens/logo.png">
+                </div>
+                <div class="footer-col-2">
+                    <h3>Links Úteis</h3>
+                    <ul>
+                        <li>Promoções</li>
+                        <li>Política de troca</li>
+                    </ul>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Redes Sociais</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2022 - Farm Store</p>
+            <p class="termos">Politica de devolução | Política de Segurança e Privacidade | Termos Legais | Reembolsos</p>
+        </div>
+    </div>
+    
+    <!-- --------------javascript---------- -->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+            MenuItems.style.maxHeight = "200px";
+        }
+        else {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+
+</body>
+</html>
+
+
+
+
+

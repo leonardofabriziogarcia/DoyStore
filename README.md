@@ -10,7 +10,7 @@ Feito por:
 
 -Pedro Henrique Kiyozi Doy;
 
--Murilo Teixeira Wiermann;
+-Murilo Wiermann Teixeira;
 
 -Leonardo Fabrizio Garcia;
 
